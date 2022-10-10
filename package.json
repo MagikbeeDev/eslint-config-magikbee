@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-magikbee",
+  "name": "@magikbee/eslint-config-magikbee",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Installing",
   "keywords": [
     "javascript",
     "eslint",
@@ -18,5 +18,14 @@
   },
   "peerDependencies": {
     "eslint": "^8.24.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagikbeeDev/eslint-config-magikbee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MagikbeeDev/eslint-config-magikbee/issues"
+  },
+  "homepage": "https://github.com/MagikbeeDev/eslint-config-magikbee#readme"
 }
