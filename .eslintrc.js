@@ -4,7 +4,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ['eslint:recommended', 'prettier'],
+  extends: ['eslint:recommended'],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -24,6 +24,7 @@ module.exports = {
     it: false,
   },
   rules: {
+    'indent': ['error', 2],
     'padding-line-between-statements': [
       'error',
       {
@@ -45,7 +46,7 @@ module.exports = {
     ],
     'brace-style': ['error', 'allman'],
     'prefer-promise-reject-errors': 'off',
-    camelcase: 0,
+    'camelcase': 0,
     'comma-dangle': 0,
     'no-unused-vars': 0,
     'no-undef': 0,
