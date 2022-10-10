@@ -5,7 +5,7 @@
 1. In your project folder, run:
 
 ```
-npm install eslint @MagikbeeDev/eslint-config-magikbee --save-dev
+npm install eslint @magikbee/eslint-config-magikbee --save-dev
 ```
 
 2. Create (or update) a `.eslintrc` file with the following content:
