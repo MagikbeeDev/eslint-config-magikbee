@@ -1,5 +1,7 @@
 # ESLint config for JavaScript projects
 
+- Use Standard JS to enforce a code style
+
 ## Installing
 
 1. In your project folder, run:

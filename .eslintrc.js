@@ -2,13 +2,14 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true,
+    node: true
   },
-  extends: ['eslint:recommended'],
-  overrides: [],
+  extends: 'standard',
+  overrides: [
+  ],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module',
+    sourceType: 'module'
   },
   globals: {
     __DEV__: false,
@@ -24,32 +25,32 @@ module.exports = {
     it: false,
   },
   rules: {
-    'indent': ['error', 2],
+    indent: ['error', 2],
     'padding-line-between-statements': [
       'error',
       {
         blankLine: 'always',
         prev: ['const', 'let', 'var'],
-        next: '*',
+        next: '*'
       },
       {
         blankLine: 'any',
         prev: ['const', 'let', 'var'],
-        next: ['const', 'let', 'var'],
-      },
+        next: ['const', 'let', 'var']
+      }
     ],
     'padded-blocks': [
       'error',
       {
-        blocks: 'never',
-      },
+        blocks: 'never'
+      }
     ],
     'brace-style': ['error', 'allman'],
     'prefer-promise-reject-errors': 'off',
-    'camelcase': 0,
+    camelcase: 0,
     'comma-dangle': 0,
     'no-unused-vars': 0,
     'no-undef': 0,
-    'space-before-function-paren': 0,
-  },
+    'space-before-function-paren': 0
+  }
 }
