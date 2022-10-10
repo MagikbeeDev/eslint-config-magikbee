@@ -8,12 +8,12 @@
 npm install eslint @magikbee/eslint-config-magikbee --save-dev
 ```
 
-2. Create (or update) a `.eslintrc` file with the following content:
+2. Create (or update) a `.eslintrc` file in your project folder with the following content:
 
 ```js
 {
   'extends': [
-    'magikbee'
+    '@magikbee/eslint-config-magikbee'
   ]
 }
 ```
