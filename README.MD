@@ -7,7 +7,7 @@
 1. In your project folder, run:
 
 ```
-npm install -D eslint @magikbee/eslint-config-magikbee
+npm install -D @magikbee/eslint-config-magikbee
 ```
 
 2. Install peer dependencies:
@@ -19,8 +19,8 @@ npm install -D eslint@^8.25.0 eslint-config-standard@^17.0.0 eslint-plugin-impor
 
 ```js
 {
-  'extends': [
-    '@magikbee/eslint-config-magikbee'
+  "extends": [
+    "@magikbee/eslint-config-magikbee"
   ]
 }
 ```
